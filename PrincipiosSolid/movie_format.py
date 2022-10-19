@@ -4,7 +4,7 @@ import re
 # Principio de Solid OCP: El archivo se encarga de varios modulos, pero si se quiere agregar otra funcionalidad, no va a ser necesario
 # modificar el codigo
 
-def movie_formatter(movies, links, crew, ratings, votes):
+def movie_format(movies, links, crew, ratings, votes):
     # Create a empty list for storing
     # movie information
     list = []
