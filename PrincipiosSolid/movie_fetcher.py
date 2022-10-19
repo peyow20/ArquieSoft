@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 from Movie_connection import url_connection
-from movie_format import csv_writer, movie_formatter
+from movie_format import csv_writer, movie_format
 
 # Principios de Solid ISP: Solo de usan metodos que estan declarados y cumplen con una funcionalidad en el codigo
 
@@ -20,7 +20,7 @@ def main():
     # create a empty list for storing
     # movie information
 
-    movies = movie_formatter(movies, links, crew, ratings, votes)
+    movies = movie_format(movies, links, crew, ratings, votes)
     filename = "movie_results.csv"
     fields = ["preference_key", "movie_title", "star_cast", "rating", "year", "place", "vote", "link"]
     csv_writer(fields, movies, filename)
