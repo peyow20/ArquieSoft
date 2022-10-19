@@ -1,6 +1,7 @@
 # ArquieSoft
 Analiza el funcionamiento del script.
   >¿Cual es su entrada? 
+  
   Su entrada es el url de la pagina de imdb
 | >¿Que procesamiento esta haciendo?
   Pide un request al url y hace un listado de peliculas, despues se le da formato para exportarlo a un .csv
