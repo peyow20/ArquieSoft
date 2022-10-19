@@ -15,3 +15,5 @@ Analiza el funcionamiento del script.
  Una vez identificado el funcionamiento, refactoriza el script en diferentes metodos o clases de tal manera que sea mas facil de leer y de entender.
  
  La refactorizacion debe seguir los principios de SOLID vistos en clase.
+ 
+ Nota: Los principios que se ultizaron estan en los archivos de python como un comentario. Se usaron 3 principios de solid
